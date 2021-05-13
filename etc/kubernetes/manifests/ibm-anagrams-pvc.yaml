@@ -8,4 +8,6 @@ spec:
   resources:
     limits:
       storage: 1Gi
+    requests:
+      storage: 1Gi
   storageClassName: gp2
